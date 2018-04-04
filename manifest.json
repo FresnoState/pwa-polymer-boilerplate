@@ -1,0 +1,7 @@
+{
+  "name": "pwa-polymer-boilerplate",
+  "short_name": "pwa-polymer-boilerplate",
+  "description": "Progress Web App / Polymer Boilerplate",
+  "start_url": "/",
+  "display": "standalone"
+}

@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="pwa-polymer-boilerplate-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class PwaPolymerBoilerplateApp extends Polymer.Element {
+      static get is() { return 'pwa-polymer-boilerplate-app'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'pwa-polymer-boilerplate-app'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PwaPolymerBoilerplateApp.is, PwaPolymerBoilerplateApp);
+  </script>
+</dom-module>
